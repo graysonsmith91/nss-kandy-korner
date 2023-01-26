@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    border: 1px solid black;
+    padding: 30px 20px;
+    background-color: lightskyblue;
+}
+
+.navbar__item {
+    flex-basis: 20%;
+    list-style-type: none;
+}
+
+.navbar__logout {
+    margin-left: auto;
+}
+
+.navbar__link {
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: white;
+}
